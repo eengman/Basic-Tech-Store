@@ -1,0 +1,61 @@
+header, footer {
+    background: #4abdac;
+    color: white;
+}
+
+body {
+    background: #4abdac;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+html {
+    background: #4abdac;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: square inside;
+}
+
+header li{
+    display: inline;
+}
+
+header h1, nav {
+    display: inline-block;
+}
+
+main {
+    width: 680px;
+    display: inline-block;
+}
+
+aside {
+    width: 270px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.product{
+    box-sizing: border-box;
+    border: 1px solid grey;
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+}
+
+.button{
+    padding: 10px;
+    display: inline-block;
+}
